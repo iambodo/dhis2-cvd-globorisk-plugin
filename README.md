@@ -6,6 +6,8 @@ Reference: Ueda P et al., *Laboratory-Based and Office-Based Risk Scores and Cha
 
 Source algorithm: [globorisk R package](https://github.com/globorisk/globorisk) (BSD-3-Clause). The plugin ports `globorisk::globorisk(version='office', type='risk', time=10)` to JavaScript and embeds the country-specific lookup tables (coefficients, mean risk factor levels, baseline CVD rates) extracted from `sysdata.rda`.
 
+![screenshot](image.png)
+
 ## Defaults
 
 Per the project spec (`CLAUDE.md`):
