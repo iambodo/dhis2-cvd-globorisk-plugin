@@ -68,7 +68,7 @@ Built artifact: `capture-plugin/build/bundle/plugin.html`. Upload via **App Mana
 If you need additional countries:
 
 1. Open `extract_data.py` and add ISO codes to `ISOS`.
-2. Ensure R's `globorisk/R/sysdata.rda` is present (it ships with this repo).
+2. Ensure R's `globorisk/R/sysdata.rda` is present in the folder. Download it from the Github repo at: https://github.com/boyercb/globorisk
 3. `pip install pyreadr` (if not already installed).
 4. `python extract_data.py` — this overwrites `capture-plugin/src/lib/globoriskData.js`.
 
