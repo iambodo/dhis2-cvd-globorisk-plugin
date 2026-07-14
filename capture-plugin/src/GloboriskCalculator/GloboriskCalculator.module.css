@@ -1,0 +1,82 @@
+.container {
+    margin: 16px 0;
+    padding: 16px;
+    min-height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #d5dde5;
+    border-radius: 4px;
+    background: #fafbfc;
+}
+
+.title {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #404b5a;
+}
+
+.paramGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px 16px;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.paramRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 8px;
+    background: #fff;
+    border: 1px solid #e8edf2;
+    border-radius: 3px;
+}
+
+.paramLabel {
+    color: #6b7280;
+}
+
+.paramValue {
+    font-weight: 600;
+    color: #1a2733;
+}
+
+.paramMissing {
+    color: #b91c1c;
+    font-style: italic;
+}
+
+.button {
+    margin-top: 8px;
+}
+
+.scoreBox {
+    margin-top: 16px;
+    padding: 20px;
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+}
+
+.scoreLabel {
+    font-size: 13px;
+    opacity: 0.9;
+    margin-bottom: 4px;
+}
+
+.scoreValue {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.scoreSub {
+    font-size: 12px;
+    opacity: 0.9;
+    margin-top: 6px;
+}
+
+.warning {
+    margin-top: 12px;
+}

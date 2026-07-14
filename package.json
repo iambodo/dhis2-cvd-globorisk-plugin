@@ -1,0 +1,17 @@
+{
+  "name": "globorisk-plugin",
+  "private": true,
+  "workspaces": ["capture-plugin"],
+  "scripts": {
+    "build": "yarn workspace capture-plugin build",
+    "start": "yarn workspace capture-plugin start",
+    "test": "yarn workspace capture-plugin test"
+  },
+  "devDependencies": {
+    "@dhis2/cli-app-scripts": "^11.7.0"
+  },
+  "resolutions": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
